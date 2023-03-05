@@ -19,4 +19,4 @@ jobs:
           distribution: 'corretto'
 
       - name: Build with Gradle
-        run: gradle build
+        run: gradlew build
