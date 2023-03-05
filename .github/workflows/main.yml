@@ -17,4 +17,4 @@ jobs:
             java-version: '17'
             distribution: 'temurin'
         - name: Run gradle build
-          run: ./gradlew build
+          run: cd DbTutorial && ./gradlew build
